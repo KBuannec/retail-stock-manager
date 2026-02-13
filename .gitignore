@@ -1,0 +1,31 @@
+# --- IDE Specific Files ---
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+*.sublime-workspace
+*.sublime-project
+.vscode/
+
+# --- Build and Compiled Files ---
+**/target/
+**/bin/
+**/out/
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Log Files ---
+*.log
+logs/
+
+# --- Frontend (Préparation pour Angular) ---
+**/node_modules/
+**/dist/
+.angular/
+.npm/
+
+# --- Docker ---
+.docker/
